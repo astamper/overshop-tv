@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
   root 'tvs#filter'
     get('/tv', { :controller => "tvs", :action => "filter"})
+    get('/tv-result', { :controller => "tvs", :action => "result"})
+    get('/tv-product', { :controller => "tvs", :action => "product"})
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

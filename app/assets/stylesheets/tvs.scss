@@ -2,19 +2,29 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-#single-page .item img{
-    display: block;
-    width: 100%;
-    height: auto;
+.item {
+display: block;
+height: auto;
 }
 
 .brand {
-    display: block;
-    width: 50%;
-    height: auto;
+display: block;
+width: 50%;
+height: auto;
 }
 
 .navbar {
-
 margin: 0;
 }
+
+.affix {
+  top: 20px;
+  width: 213px;
+}
+
+@media (min-width: 1200px) {
+  .affix {
+    width: 263px;
+  }
+}
+

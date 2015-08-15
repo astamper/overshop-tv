@@ -1,24 +1,24 @@
+
 <div class="row">
-  <div class="col-sm-4 col-md-3 col-lg-2 hidden-xs">
-hey
+  <div class="col-sm-4 col-md-3 col-lg-2 hidden-xs"  id="myScrollspy">
+    <%= render 'sidebar' %>
   </div>
-  <div class="col-sm-8 col-md-9 hidden-xs">
-        <div class="item"> <%= render 'tvprice' %> </div>
-      <div class="item"> <%= render 'tvsize' %> </div>
-      <div class="item"> <%= render 'tvresolution' %> </div>
+  <div class="col-sm-8 col-md-9 hidden-xs content" >
+    <div class="item"><section id="section1"> <%= render 'tvprice' %></section> </div>
+    <div class="item"><section id="section2"> <%= render 'tvsize' %></section> </div>
+    <div class="item"><section id="section3"> <%= render 'tvresolution' %></section> </div>
   </div>
-  <div class="col-sm-8 col-md-9 visible-xs">
+  <div class="visible-xs">
     <div class="owl-carousel" id="single-page">
-      <div class="item"> <%= render 'tvprice' %>  </div>
-      <div class="item"> <%= render 'tvsize' %> </div>
-      <div class="item"> <%= render 'tvresolution' %> </div>
+      <div class="item"><%= render 'tvprice' %></div>
+      <div class="item"><%= render 'tvsize' %></div>
+      <div class="item"><%= render 'tvresolution' %></div>
     </div>
   </div>
 </div>
 
-<nav class="navbar navbar-default navbar-fixed-bottom visible-xs">
-  <div class="container">
-
+<nav class="navbar navbar-default navbar-fixed-bottom visible-xs sucess">
+<div class="container">
   </div>
 </nav>
 
@@ -38,5 +38,11 @@ hey
       pagination : false
 
     });
+  $('#nav').affix({
+    offset: {
+      top: $('#nav').offset().top
+    }
+  });
+
 </script>
 
