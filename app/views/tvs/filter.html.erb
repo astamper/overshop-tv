@@ -1,7 +1,42 @@
+<div class="row">
+  <div class="col-sm-4 col-md-3 col-lg-2 hidden-xs">
 hey
-<div class="owl-carousel">
-  <div> <img src="http://search.chow.com/thumbnail/1600/0/www.chowstatic.com/assets/2014/11/31178_slow_cooker_pork_ramen_3000.jpg"> </div>
-  <div> <img src="http://www.tastyislandhawaii.com/images10/menchanko_tei/menchanko_tei_shoyu_ramen3.jpg"> </div>
-  <div> <img src="http://cdn.forknplate.com/wp-content/uploads/2015/02/Ramen1.jpg"> </div>
+  </div>
+  <div class="col-sm-8 col-md-9 hidden-xs">
+        <div class="item"> <%= render 'tvprice' %> </div>
+      <div class="item"> <%= render 'tvsize' %> </div>
+      <div class="item"> <%= render 'tvresolution' %> </div>
+  </div>
+  <div class="col-sm-8 col-md-9 visible-xs">
+    <div class="owl-carousel" id="single-page">
+      <div class="item"> <%= render 'tvprice' %>  </div>
+      <div class="item"> <%= render 'tvsize' %> </div>
+      <div class="item"> <%= render 'tvresolution' %> </div>
+    </div>
+  </div>
 </div>
-$(".owl-carousel").owlCarousel();
+
+<nav class="navbar navbar-default navbar-fixed-bottom visible-xs">
+  <div class="container">
+
+  </div>
+</nav>
+
+
+
+
+
+<script type="text/javascript">
+  $(".owl-carousel").owlCarousel({
+
+      navigation : true, // Show next and prev buttons
+      slideSpeed : 300,
+      paginationSpeed : 400,
+      singleItem:true,
+      autoHeight : true,
+      navigation : false,
+      pagination : false
+
+    });
+</script>
+
