@@ -2212,3 +2212,68 @@ Completed 200 OK in 38ms (Views: 37.3ms | ActiveRecord: 0.0ms)
 
 
 Started GET "/assets/grabbing.png" for ::1 at 2015-08-15 11:38:56 -0500
+
+
+Started GET "/tv" for ::1 at 2015-08-15 11:45:17 -0500
+Processing by TvsController#filter as HTML
+  Rendered tvs/_sidebar.html.erb (0.3ms)
+  Rendered tvs/_tvprice.html.erb (0.3ms)
+  Rendered tvs/_tvsize.html.erb (0.3ms)
+  Rendered tvs/_tvresolution.html.erb (0.2ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/filter.html.erb within layouts/application (13.9ms)
+Completed 200 OK in 204ms (Views: 186.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv" for ::1 at 2015-08-15 11:45:33 -0500
+Processing by TvsController#filter as HTML
+  Rendered tvs/_sidebar.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/filter.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 39ms (Views: 38.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv" for ::1 at 2015-08-15 11:48:13 -0500
+Processing by TvsController#filter as HTML
+  Rendered tvs/_sidebar.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.2ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/filter.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 57ms (Views: 56.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv" for ::1 at 2015-08-15 11:48:49 -0500
+Processing by TvsController#filter as HTML
+  Rendered tvs/_sidebar.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.3ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.1ms)
+  Rendered tvs/filter.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 59ms (Views: 59.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv" for ::1 at 2015-08-15 11:50:26 -0500
+Processing by TvsController#filter as HTML
+  Rendered tvs/_sidebar.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.4ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/filter.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 58ms (Views: 58.0ms | ActiveRecord: 0.0ms)
