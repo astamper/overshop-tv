@@ -10,13 +10,20 @@
     -webkit-transition: height .3s ease;
     transition: height .3s ease;
 }
-#foot:hover  {
+#foot:hover, #foot.hover_effect {
     height: 100%;
+}
+.hover {
+-webkit-user-select: none;
+-webkit-touch-callout: none;
 }
 </style>
 
 
 <div id="foot"> <font color="white">Down</font>
+
+
+
  <script type="text/javascript">
 $(document).ready(function() {
     $('.hover').bind('touchstart touchend', function(e) {
