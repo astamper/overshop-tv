@@ -10,13 +10,10 @@
     -webkit-transition: height .3s ease;
     transition: height .3s ease;
 }
-#foot:hover, #foot.hover_effect {
+.no-touch #foot:hover {
     height: 100%;
 }
-.hover {
--webkit-user-select: none;
--webkit-touch-callout: none;
-}
+
 </style>
 
 
@@ -25,9 +22,7 @@
 
 
 <script>
-var p = document.getElementsByTagName('#foot')[0];
-p.onclick = function() {
- // Trigger the `hover` event on the paragraph
- p.onhover.call(p);
-};
+if (!("ontouchstart" in document.documentElement)) {
+document.documentElement.className += " no-touch";
+}
 </script>
