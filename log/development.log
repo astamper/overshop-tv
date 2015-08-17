@@ -4861,3 +4861,9 @@ Started GET "/tv-product" for ::1 at 2015-08-17 10:03:10 -0500
 Processing by TvsController#product as HTML
   Rendered tvs/product.html.erb within layouts/application (0.3ms)
 Completed 200 OK in 35ms (Views: 34.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-product" for ::1 at 2015-08-17 10:09:27 -0500
+Processing by TvsController#product as HTML
+  Rendered tvs/product.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 169ms (Views: 159.7ms | ActiveRecord: 0.0ms)

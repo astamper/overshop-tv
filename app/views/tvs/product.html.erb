@@ -24,11 +24,10 @@
 
 
 
- <script type="text/javascript">
-$(document).ready(function() {
-    $('.hover').bind('touchstart touchend', function(e) {
-        e.preventDefault();
-        $(this).toggleClass('hover_effect');
-    });
-});
- </script>
+<script>
+var p = document.getElementsByTagName('#foot')[0];
+p.onclick = function() {
+ // Trigger the `hover` event on the paragraph
+ p.onhover.call(p);
+};
+</script>
