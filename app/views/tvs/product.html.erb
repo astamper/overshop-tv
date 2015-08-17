@@ -1,23 +1,65 @@
 
+
+
+
+
+
+
+
 <style type="text/css">
-#foot {
+  #filters {
     position: fixed;
     bottom:0px;
     width: 100%;
-    height: 7%;
-    background-color: black;
-    text-align: center;
+    height: 50px;
+    background: lightgray;
+
     -webkit-transition: height .3s ease;
     transition: height .3s ease;
-}
-#foot:focus {
+  }
+  #filters:target {
     height: 100%;
-}
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+  #bottombutton {
+    width: 100%;
+    height: 50px;
+    background: green;
+  }
+  h3 {
+    margin: 0px;
+  }
+
+
 
 </style>
 
 
-<!-- <div id="foot"> <font color="white">Down</font></div> -->
+
+  <div id="filters">
+  <a class="togglelink" href="#">
+    <div id="bottombutton">
+      <h3 class="text-center"> 3 Models </h3>
+    </div>
+    </a>
+    <%= render 'sidebar' %>
+  </div>
 
 
-<a id="foot" href="#"></a>
+
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    $( ".togglelink" ).click(function(){
+      if($(this).attr("href")=="#filters")
+        {
+          $(this).attr( "href", "#" )
+        }
+        else
+        {
+          $(this).attr( "href", "#filters" )
+        }
+    });
+  });
+</script>
