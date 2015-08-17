@@ -4867,3 +4867,21 @@ Started GET "/tv-product" for ::1 at 2015-08-17 10:09:27 -0500
 Processing by TvsController#product as HTML
   Rendered tvs/product.html.erb within layouts/application (1.4ms)
 Completed 200 OK in 169ms (Views: 159.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-product" for ::1 at 2015-08-17 10:22:11 -0500
+Processing by TvsController#product as HTML
+  Rendered tvs/product.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 182ms (Views: 174.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-product" for ::1 at 2015-08-17 10:22:31 -0500
+Processing by TvsController#product as HTML
+  Rendered tvs/product.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 33ms (Views: 32.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-product" for ::1 at 2015-08-17 10:22:41 -0500
+Processing by TvsController#product as HTML
+  Rendered tvs/product.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 31ms (Views: 30.3ms | ActiveRecord: 0.0ms)
