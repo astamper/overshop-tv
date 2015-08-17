@@ -2303,3 +2303,2549 @@ Processing by TvsController#filter as HTML
   Rendered tvs/_tvresolution.html.erb (0.0ms)
   Rendered tvs/filter.html.erb within layouts/application (6.7ms)
 Completed 200 OK in 40ms (Views: 39.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-result" for ::1 at 2015-08-15 12:01:10 -0500
+Processing by TvsController#result as HTML
+  Rendered tvs/result.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 194ms (Views: 177.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-result" for ::1 at 2015-08-15 12:06:35 -0500
+Processing by TvsController#result as HTML
+  Rendered tvs/result.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 36ms (Views: 35.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv" for ::1 at 2015-08-15 12:19:44 -0500
+Processing by TvsController#filter as HTML
+  Rendered tvs/_sidebar.html.erb (0.2ms)
+  Rendered tvs/_tvprice.html.erb (0.2ms)
+  Rendered tvs/_tvsize.html.erb (0.3ms)
+  Rendered tvs/_tvresolution.html.erb (0.2ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/filter.html.erb within layouts/application (12.0ms)
+Completed 200 OK in 118ms (Views: 117.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tvs.self-edf189162e07ee300aa28b0b5ea3c7e452a93d6a9a50ba745e4a5da1eb4f8f08.css?body=1" for ::1 at 2015-08-15 12:19:44 -0500
+
+
+Started GET "/tv" for ::1 at 2015-08-15 13:03:17 -0500
+Processing by TvsController#filter as HTML
+  Rendered tvs/_sidebar.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/filter.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 72ms (Views: 72.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv" for ::1 at 2015-08-15 13:03:43 -0500
+Processing by TvsController#filter as HTML
+  Rendered tvs/_sidebar.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/filter.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 57ms (Views: 56.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv" for ::1 at 2015-08-15 13:17:34 -0500
+Processing by TvsController#filter as HTML
+  Rendered tvs/_sidebar.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/filter.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 55ms (Views: 54.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv" for ::1 at 2015-08-15 13:18:46 -0500
+Processing by TvsController#filter as HTML
+  Rendered tvs/_sidebar.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.1ms)
+  Rendered tvs/filter.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 41ms (Views: 40.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/bootstrap-navbar.html" for ::1 at 2015-08-15 13:20:21 -0500
+
+ActionController::RoutingError (No route matches [GET] "/bootstrap-navbar.html"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (10.5ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (62.7ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (41.4ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (88.9ms)
+
+
+Started GET "/bootstrap-navbar.html" for ::1 at 2015-08-15 13:20:22 -0500
+
+ActionController::RoutingError (No route matches [GET] "/bootstrap-navbar.html"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (47.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (40.8ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (82.3ms)
+
+
+Started GET "/bootstrap-navbar-fixed-top.html" for ::1 at 2015-08-15 13:20:27 -0500
+
+ActionController::RoutingError (No route matches [GET] "/bootstrap-navbar-fixed-top.html"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (47.5ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (34.7ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (71.8ms)
+
+
+Started GET "/bootstrap-navbar-fixed-top.html" for ::1 at 2015-08-15 13:20:28 -0500
+
+ActionController::RoutingError (No route matches [GET] "/bootstrap-navbar-fixed-top.html"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (6.5ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (53.1ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.1ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (30.5ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (70.2ms)
+
+
+Started GET "/tv" for ::1 at 2015-08-15 13:21:57 -0500
+Processing by TvsController#filter as HTML
+  Rendered tvs/_sidebar.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.2ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/filter.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 55ms (Views: 54.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv" for ::1 at 2015-08-16 17:01:56 -0500
+Processing by TvsController#filter as HTML
+  Rendered tvs/_sidebar.html.erb (0.1ms)
+  Rendered tvs/_tvprice.html.erb (0.1ms)
+  Rendered tvs/_tvsize.html.erb (0.1ms)
+  Rendered tvs/_tvresolution.html.erb (0.5ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/filter.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 96ms (Views: 91.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tvs.self-edf189162e07ee300aa28b0b5ea3c7e452a93d6a9a50ba745e4a5da1eb4f8f08.css?body=1" for ::1 at 2015-08-16 17:01:56 -0500
+
+
+Started GET "/tv" for ::1 at 2015-08-16 17:25:29 -0500
+Processing by TvsController#filter as HTML
+  Rendered tvs/_sidebar.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/filter.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 58ms (Views: 58.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv" for ::1 at 2015-08-16 17:32:48 -0500
+Processing by TvsController#filter as HTML
+  Rendered tvs/_sidebar.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/filter.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 52ms (Views: 51.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv" for ::1 at 2015-08-16 17:33:48 -0500
+Processing by TvsController#filter as HTML
+  Rendered tvs/_sidebar.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/filter.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 37ms (Views: 36.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv" for ::1 at 2015-08-16 17:37:28 -0500
+Processing by TvsController#filter as HTML
+  Rendered tvs/_sidebar.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/filter.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 59ms (Views: 58.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv" for ::1 at 2015-08-16 17:37:40 -0500
+Processing by TvsController#filter as HTML
+  Rendered tvs/_sidebar.html.erb (0.1ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/filter.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 38ms (Views: 37.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv" for ::1 at 2015-08-16 17:40:16 -0500
+Processing by TvsController#filter as HTML
+  Rendered tvs/_sidebar.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.1ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/filter.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 46ms (Views: 45.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv" for ::1 at 2015-08-16 17:40:44 -0500
+Processing by TvsController#filter as HTML
+  Rendered tvs/_sidebar.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.1ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/filter.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 40ms (Views: 39.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv" for ::1 at 2015-08-16 17:42:28 -0500
+Processing by TvsController#filter as HTML
+  Rendered tvs/_sidebar.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/filter.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 43ms (Views: 43.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv" for ::1 at 2015-08-16 17:43:22 -0500
+Processing by TvsController#filter as HTML
+  Rendered tvs/_sidebar.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.2ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/filter.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 41ms (Views: 40.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv" for ::1 at 2015-08-16 17:44:32 -0500
+Processing by TvsController#filter as HTML
+  Rendered tvs/_sidebar.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/filter.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 43ms (Views: 42.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv" for ::1 at 2015-08-16 17:45:09 -0500
+Processing by TvsController#filter as HTML
+  Rendered tvs/_sidebar.html.erb (0.2ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/filter.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 42ms (Views: 41.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv" for ::1 at 2015-08-16 17:45:17 -0500
+Processing by TvsController#filter as HTML
+  Rendered tvs/_sidebar.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/filter.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 37ms (Views: 36.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv" for ::1 at 2015-08-16 17:45:51 -0500
+Processing by TvsController#filter as HTML
+  Rendered tvs/_sidebar.html.erb (0.2ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/filter.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 44ms (Views: 43.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv" for ::1 at 2015-08-16 17:46:06 -0500
+Processing by TvsController#filter as HTML
+  Rendered tvs/_sidebar.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/filter.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 39ms (Views: 39.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv" for ::1 at 2015-08-16 17:46:53 -0500
+Processing by TvsController#filter as HTML
+  Rendered tvs/_sidebar.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/filter.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 38ms (Views: 38.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv" for ::1 at 2015-08-16 17:47:22 -0500
+Processing by TvsController#filter as HTML
+  Rendered tvs/_sidebar.html.erb (0.3ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/filter.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 41ms (Views: 40.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/grabbing.png" for ::1 at 2015-08-16 17:48:14 -0500
+
+
+Started GET "/tv" for ::1 at 2015-08-16 17:54:46 -0500
+Processing by TvsController#filter as HTML
+  Rendered tvs/_sidebar.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/filter.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 60ms (Views: 59.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv" for ::1 at 2015-08-16 18:00:53 -0500
+Processing by TvsController#filter as HTML
+  Rendered tvs/_sidebar.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.1ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/filter.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 45ms (Views: 45.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv" for ::1 at 2015-08-16 18:00:56 -0500
+Processing by TvsController#filter as HTML
+  Rendered tvs/_sidebar.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/filter.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 38ms (Views: 37.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv" for ::1 at 2015-08-16 18:01:21 -0500
+Processing by TvsController#filter as HTML
+  Rendered tvs/_sidebar.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/filter.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 41ms (Views: 40.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv" for ::1 at 2015-08-16 18:01:36 -0500
+Processing by TvsController#filter as HTML
+  Rendered tvs/_sidebar.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.1ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/filter.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 42ms (Views: 41.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv" for ::1 at 2015-08-16 18:01:44 -0500
+Processing by TvsController#filter as HTML
+  Rendered tvs/_sidebar.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.1ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/filter.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 43ms (Views: 42.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv" for ::1 at 2015-08-16 18:02:16 -0500
+Processing by TvsController#filter as HTML
+  Rendered tvs/_sidebar.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.1ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/filter.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 39ms (Views: 38.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv" for ::1 at 2015-08-16 18:02:48 -0500
+Processing by TvsController#filter as HTML
+  Rendered tvs/_sidebar.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/filter.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 39ms (Views: 38.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv" for ::1 at 2015-08-16 18:03:26 -0500
+Processing by TvsController#filter as HTML
+  Rendered tvs/_sidebar.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/filter.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 41ms (Views: 41.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/result" for ::1 at 2015-08-16 18:04:19 -0500
+
+ActionController::RoutingError (No route matches [GET] "/result"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (57.6ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (36.1ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (80.6ms)
+
+
+Started GET "/filter" for ::1 at 2015-08-16 18:04:48 -0500
+
+ActionController::RoutingError (No route matches [GET] "/filter"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (50.7ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (31.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (71.6ms)
+
+
+Started GET "/tv/filter" for ::1 at 2015-08-16 18:04:54 -0500
+
+ActionController::RoutingError (No route matches [GET] "/tv/filter"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (48.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (34.0ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (71.9ms)
+
+
+Started GET "/tv-filter" for ::1 at 2015-08-16 18:05:01 -0500
+
+ActionController::RoutingError (No route matches [GET] "/tv-filter"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (46.7ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (32.1ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (70.9ms)
+
+
+Started GET "/tv-product" for ::1 at 2015-08-16 18:05:11 -0500
+Processing by TvsController#product as HTML
+  Rendered tvs/product.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 35ms (Views: 34.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-product" for ::1 at 2015-08-16 18:05:48 -0500
+Processing by TvsController#product as HTML
+  Rendered tvs/product.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 37ms (Views: 36.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-product" for ::1 at 2015-08-16 18:06:14 -0500
+Processing by TvsController#product as HTML
+  Rendered tvs/product.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 42ms (Views: 41.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-product" for ::1 at 2015-08-16 18:07:17 -0500
+Processing by TvsController#product as HTML
+  Rendered tvs/product.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 33ms (Views: 32.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-product" for ::1 at 2015-08-16 18:07:41 -0500
+Processing by TvsController#product as HTML
+  Rendered tvs/product.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 34ms (Views: 33.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-product" for ::1 at 2015-08-16 18:14:54 -0500
+Processing by TvsController#product as HTML
+  Rendered tvs/product.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 48ms (Views: 48.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-product" for ::1 at 2015-08-16 18:15:24 -0500
+Processing by TvsController#product as HTML
+  Rendered tvs/product.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 38ms (Views: 37.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-product" for ::1 at 2015-08-16 18:18:04 -0500
+Processing by TvsController#product as HTML
+  Rendered tvs/product.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 39ms (Views: 39.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/css/bootstrap.min.css" for ::1 at 2015-08-16 18:18:04 -0500
+
+ActionController::RoutingError (No route matches [GET] "/css/bootstrap.min.css"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (61.5ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (41.9ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (91.9ms)
+
+
+Started GET "/css/jasny-bootstrap.min.css" for ::1 at 2015-08-16 18:18:04 -0500
+
+ActionController::RoutingError (No route matches [GET] "/css/jasny-bootstrap.min.css"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (56.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (39.1ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.1ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (79.8ms)
+
+
+Started GET "/js/bootstrap.min.js" for ::1 at 2015-08-16 18:18:05 -0500
+
+ActionController::RoutingError (No route matches [GET] "/js/bootstrap.min.js"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (59.1ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (36.7ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (78.7ms)
+
+
+Started GET "/js/jasny-bootstrap.min.js" for ::1 at 2015-08-16 18:18:05 -0500
+
+ActionController::RoutingError (No route matches [GET] "/js/jasny-bootstrap.min.js"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (49.1ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (32.6ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (79.0ms)
+
+
+Started GET "/tv-product" for ::1 at 2015-08-16 18:18:17 -0500
+Processing by TvsController#product as HTML
+  Rendered tvs/product.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 37ms (Views: 36.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/css/bootstrap.min.css" for ::1 at 2015-08-16 18:18:17 -0500
+
+ActionController::RoutingError (No route matches [GET] "/css/bootstrap.min.css"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (50.4ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (5.8ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (35.6ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (79.1ms)
+
+
+Started GET "/js/bootstrap.min.js" for ::1 at 2015-08-16 18:18:17 -0500
+
+ActionController::RoutingError (No route matches [GET] "/js/bootstrap.min.js"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (51.6ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (36.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (77.0ms)
+
+
+Started GET "/css/jasny-bootstrap.min.css" for ::1 at 2015-08-16 18:18:17 -0500
+
+ActionController::RoutingError (No route matches [GET] "/css/jasny-bootstrap.min.css"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (49.7ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (33.4ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (73.4ms)
+
+
+Started GET "/js/jasny-bootstrap.min.js" for ::1 at 2015-08-16 18:18:17 -0500
+
+ActionController::RoutingError (No route matches [GET] "/js/jasny-bootstrap.min.js"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (56.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (35.5ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (83.6ms)
+
+
+Started GET "/tv-product" for ::1 at 2015-08-16 18:19:45 -0500
+Processing by TvsController#product as HTML
+  Rendered tvs/product.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 37ms (Views: 36.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/css/bootstrap.min.css" for ::1 at 2015-08-16 18:19:45 -0500
+
+ActionController::RoutingError (No route matches [GET] "/css/bootstrap.min.css"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (51.1ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (32.7ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (75.6ms)
+
+
+Started GET "/js/bootstrap.min.js" for ::1 at 2015-08-16 18:19:45 -0500
+
+ActionController::RoutingError (No route matches [GET] "/js/bootstrap.min.js"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (49.7ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (32.8ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (72.5ms)
+
+
+Started GET "/css/jasny-bootstrap.min.css" for ::1 at 2015-08-16 18:19:45 -0500
+
+ActionController::RoutingError (No route matches [GET] "/css/jasny-bootstrap.min.css"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (48.7ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (32.7ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (72.1ms)
+
+
+Started GET "/js/jasny-bootstrap.min.js" for ::1 at 2015-08-16 18:19:45 -0500
+
+ActionController::RoutingError (No route matches [GET] "/js/jasny-bootstrap.min.js"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (56.5ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (38.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (80.0ms)
+
+
+Started GET "/tv" for ::1 at 2015-08-16 18:19:48 -0500
+Processing by TvsController#filter as HTML
+  Rendered tvs/_sidebar.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/filter.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 38ms (Views: 37.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/css/bootstrap.min.css" for ::1 at 2015-08-16 18:19:48 -0500
+
+ActionController::RoutingError (No route matches [GET] "/css/bootstrap.min.css"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (55.6ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (39.8ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (77.5ms)
+
+
+Started GET "/css/jasny-bootstrap.min.css" for ::1 at 2015-08-16 18:19:48 -0500
+
+ActionController::RoutingError (No route matches [GET] "/css/jasny-bootstrap.min.css"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (47.4ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (31.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (69.4ms)
+
+
+Started GET "/js/jasny-bootstrap.min.js" for ::1 at 2015-08-16 18:19:48 -0500
+
+ActionController::RoutingError (No route matches [GET] "/js/jasny-bootstrap.min.js"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (55.8ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (45.7ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (99.8ms)
+
+
+Started GET "/js/bootstrap.min.js" for ::1 at 2015-08-16 18:19:49 -0500
+
+ActionController::RoutingError (No route matches [GET] "/js/bootstrap.min.js"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (8.7ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (57.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (33.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (76.2ms)
+
+
+Started GET "/tvs" for ::1 at 2015-08-16 18:19:52 -0500
+
+ActionController::RoutingError (No route matches [GET] "/tvs"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (53.1ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (36.4ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (75.8ms)
+
+
+Started GET "/tv" for ::1 at 2015-08-16 18:19:55 -0500
+Processing by TvsController#filter as HTML
+  Rendered tvs/_sidebar.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/filter.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 42ms (Views: 41.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/css/bootstrap.min.css" for ::1 at 2015-08-16 18:19:55 -0500
+
+ActionController::RoutingError (No route matches [GET] "/css/bootstrap.min.css"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (55.4ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (37.4ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (78.5ms)
+
+
+Started GET "/css/jasny-bootstrap.min.css" for ::1 at 2015-08-16 18:19:56 -0500
+
+ActionController::RoutingError (No route matches [GET] "/css/jasny-bootstrap.min.css"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (53.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (45.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (87.9ms)
+
+
+Started GET "/js/jasny-bootstrap.min.js" for ::1 at 2015-08-16 18:19:56 -0500
+
+ActionController::RoutingError (No route matches [GET] "/js/jasny-bootstrap.min.js"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (53.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (41.6ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (83.7ms)
+
+
+Started GET "/js/bootstrap.min.js" for ::1 at 2015-08-16 18:19:56 -0500
+
+ActionController::RoutingError (No route matches [GET] "/js/bootstrap.min.js"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (7.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (55.8ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (32.8ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (71.6ms)
+
+
+Started GET "/tv" for ::1 at 2015-08-16 18:21:52 -0500
+Processing by TvsController#filter as HTML
+  Rendered tvs/_sidebar.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/filter.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 40ms (Views: 39.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-product" for ::1 at 2015-08-16 18:21:59 -0500
+Processing by TvsController#product as HTML
+  Rendered tvs/product.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 34ms (Views: 33.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-product" for ::1 at 2015-08-16 18:22:53 -0500
+Processing by TvsController#product as HTML
+  Rendered tvs/product.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 37ms (Views: 36.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-product" for ::1 at 2015-08-16 18:23:38 -0500
+Processing by TvsController#product as HTML
+  Rendered tvs/product.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 38ms (Views: 37.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-product" for ::1 at 2015-08-16 18:23:49 -0500
+Processing by TvsController#product as HTML
+  Rendered tvs/product.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 39ms (Views: 38.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-product" for ::1 at 2015-08-16 18:24:10 -0500
+Processing by TvsController#product as HTML
+  Rendered tvs/product.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 35ms (Views: 35.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-product" for ::1 at 2015-08-16 18:25:23 -0500
+Processing by TvsController#product as HTML
+  Rendered tvs/product.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 33ms (Views: 33.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-product" for ::1 at 2015-08-16 18:26:12 -0500
+Processing by TvsController#product as HTML
+  Rendered tvs/product.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 34ms (Views: 34.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-product" for ::1 at 2015-08-16 18:26:18 -0500
+Processing by TvsController#product as HTML
+  Rendered tvs/product.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 43ms (Views: 42.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-product" for ::1 at 2015-08-16 18:27:34 -0500
+Processing by TvsController#product as HTML
+  Rendered tvs/product.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 35ms (Views: 34.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-product" for ::1 at 2015-08-16 18:29:18 -0500
+Processing by TvsController#product as HTML
+  Rendered tvs/product.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 37ms (Views: 36.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-product" for ::1 at 2015-08-16 18:30:59 -0500
+Processing by TvsController#product as HTML
+  Rendered tvs/product.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 34ms (Views: 33.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-product" for ::1 at 2015-08-16 18:31:38 -0500
+Processing by TvsController#product as HTML
+  Rendered tvs/product.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 43ms (Views: 42.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-product" for ::1 at 2015-08-16 18:32:37 -0500
+Processing by TvsController#product as HTML
+  Rendered tvs/product.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 34ms (Views: 33.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-product" for ::1 at 2015-08-16 18:35:10 -0500
+Processing by TvsController#product as HTML
+  Rendered tvs/product.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 36ms (Views: 35.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/tvs.self-edf189162e07ee300aa28b0b5ea3c7e452a93d6a9a50ba745e4a5da1eb4f8f08.css?body=1" for ::1 at 2015-08-16 18:35:10 -0500
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-08-16 18:35:10 -0500
+
+
+Started GET "/assets/owl.theme.self-99f17f686c3688674da27273015b38595e327678fc04f0ae0740f12c1fda0e53.css?body=1" for ::1 at 2015-08-16 18:35:10 -0500
+
+
+Started GET "/assets/application.self-39e937c38e18a6e30a0df8f358daffb7d0f9ef8e553222083a4197eb152141a5.css?body=1" for ::1 at 2015-08-16 18:35:11 -0500
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-08-16 18:35:11 -0500
+
+
+Started GET "/assets/owl.carousel.self-8bdce040286fb9b851d53a7af378ae135e1ef93e85f6d1082630d6729cf59337.css?body=1" for ::1 at 2015-08-16 18:35:11 -0500
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-08-16 18:35:11 -0500
+
+
+Started GET "/assets/tvs.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-08-16 18:35:11 -0500
+
+
+Started GET "/assets/owl.carousel.self-aed126d4aa315202147b9de700e302c5b7f1b68cc8c44a68b116efb60671cd80.js?body=1" for ::1 at 2015-08-16 18:35:11 -0500
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for ::1 at 2015-08-16 18:35:11 -0500
+
+
+Started GET "/tv-product" for ::1 at 2015-08-16 18:36:00 -0500
+Processing by TvsController#product as HTML
+  Rendered tvs/product.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 35ms (Views: 34.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-product" for ::1 at 2015-08-16 18:36:48 -0500
+Processing by TvsController#product as HTML
+  Rendered tvs/product.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 39ms (Views: 38.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-product" for ::1 at 2015-08-16 18:37:47 -0500
+Processing by TvsController#product as HTML
+  Rendered tvs/product.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 36ms (Views: 35.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-product" for ::1 at 2015-08-16 18:38:26 -0500
+Processing by TvsController#product as HTML
+  Rendered tvs/product.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 35ms (Views: 34.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-product" for ::1 at 2015-08-16 18:39:18 -0500
+Processing by TvsController#product as HTML
+  Rendered tvs/product.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 36ms (Views: 35.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-product" for ::1 at 2015-08-16 18:40:22 -0500
+Processing by TvsController#product as HTML
+  Rendered tvs/product.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 39ms (Views: 38.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-product" for ::1 at 2015-08-16 18:40:51 -0500
+Processing by TvsController#product as HTML
+  Rendered tvs/product.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 33ms (Views: 32.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-product" for ::1 at 2015-08-16 18:43:18 -0500
+Processing by TvsController#product as HTML
+  Rendered tvs/product.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 37ms (Views: 36.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv" for ::1 at 2015-08-16 18:43:22 -0500
+Processing by TvsController#filter as HTML
+  Rendered tvs/_sidebar.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/filter.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 40ms (Views: 39.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv" for ::1 at 2015-08-16 18:46:47 -0500
+Processing by TvsController#filter as HTML
+  Rendered tvs/_sidebar.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/filter.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 52ms (Views: 51.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-result" for ::1 at 2015-08-16 18:46:53 -0500
+Processing by TvsController#result as HTML
+  Rendered tvs/result.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 39ms (Views: 38.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-result" for ::1 at 2015-08-16 18:47:08 -0500
+Processing by TvsController#result as HTML
+  Rendered tvs/result.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 33ms (Views: 32.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv" for ::1 at 2015-08-16 18:49:21 -0500
+Processing by TvsController#filter as HTML
+  Rendered tvs/_sidebar.html.erb (0.2ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.1ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/filter.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 46ms (Views: 45.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-result" for ::1 at 2015-08-16 18:49:26 -0500
+Processing by TvsController#result as HTML
+  Rendered tvs/result.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 34ms (Views: 33.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-result" for ::1 at 2015-08-16 18:49:59 -0500
+Processing by TvsController#result as HTML
+  Rendered tvs/result.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 40ms (Views: 39.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-result" for ::1 at 2015-08-16 18:50:55 -0500
+Processing by TvsController#result as HTML
+  Rendered tvs/_sidebar.html.erb (0.0ms)
+  Rendered tvs/result.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 35ms (Views: 34.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-result" for ::1 at 2015-08-16 18:51:44 -0500
+Processing by TvsController#result as HTML
+  Rendered tvs/_sidebar.html.erb (0.0ms)
+  Rendered tvs/result.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 35ms (Views: 34.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-result" for ::1 at 2015-08-16 18:52:39 -0500
+Processing by TvsController#result as HTML
+  Rendered tvs/_sidebar.html.erb (0.0ms)
+  Rendered tvs/result.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 35ms (Views: 34.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-result" for ::1 at 2015-08-16 18:53:28 -0500
+Processing by TvsController#result as HTML
+  Rendered tvs/_sidebar.html.erb (0.0ms)
+  Rendered tvs/result.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 45ms (Views: 44.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-result" for ::1 at 2015-08-16 18:53:57 -0500
+Processing by TvsController#result as HTML
+  Rendered tvs/_sidebar.html.erb (0.0ms)
+  Rendered tvs/result.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 34ms (Views: 33.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-result" for ::1 at 2015-08-16 18:54:31 -0500
+Processing by TvsController#result as HTML
+  Rendered tvs/_sidebar.html.erb (0.0ms)
+  Rendered tvs/result.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 34ms (Views: 33.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-result" for ::1 at 2015-08-16 18:54:56 -0500
+Processing by TvsController#result as HTML
+  Rendered tvs/_sidebar.html.erb (0.0ms)
+  Rendered tvs/result.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 35ms (Views: 34.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv" for ::1 at 2015-08-16 18:55:26 -0500
+Processing by TvsController#filter as HTML
+  Rendered tvs/_sidebar.html.erb (0.2ms)
+  Rendered tvs/_tvprice.html.erb (0.2ms)
+  Rendered tvs/_tvsize.html.erb (0.3ms)
+  Rendered tvs/_tvresolution.html.erb (0.3ms)
+  Rendered tvs/_tvprice.html.erb (0.1ms)
+  Rendered tvs/_tvsize.html.erb (0.1ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/filter.html.erb within layouts/application (11.8ms)
+Completed 200 OK in 51ms (Views: 50.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-result" for ::1 at 2015-08-16 18:55:33 -0500
+Processing by TvsController#result as HTML
+  Rendered tvs/_sidebar.html.erb (0.0ms)
+  Rendered tvs/result.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 39ms (Views: 38.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv" for ::1 at 2015-08-16 18:56:00 -0500
+Processing by TvsController#filter as HTML
+  Rendered tvs/_sidebar.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/filter.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 43ms (Views: 42.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/grabbing.png" for ::1 at 2015-08-16 18:56:02 -0500
+
+
+Started GET "/tv-result" for ::1 at 2015-08-16 18:56:05 -0500
+Processing by TvsController#result as HTML
+  Rendered tvs/_sidebar.html.erb (0.0ms)
+  Rendered tvs/result.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 33ms (Views: 33.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-result" for ::1 at 2015-08-17 09:14:02 -0500
+Processing by TvsController#result as HTML
+  Rendered tvs/_sidebar.html.erb (0.2ms)
+  Rendered tvs/result.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 131ms (Views: 125.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-result" for ::1 at 2015-08-17 09:14:20 -0500
+Processing by TvsController#result as HTML
+  Rendered tvs/_sidebar.html.erb (0.1ms)
+  Rendered tvs/result.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 106ms (Views: 105.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-result" for ::1 at 2015-08-17 09:14:21 -0500
+Processing by TvsController#result as HTML
+  Rendered tvs/_sidebar.html.erb (0.0ms)
+  Rendered tvs/result.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 44ms (Views: 43.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv" for ::1 at 2015-08-17 09:14:30 -0500
+Processing by TvsController#filter as HTML
+  Rendered tvs/_sidebar.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.1ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/filter.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 50ms (Views: 49.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv" for ::1 at 2015-08-17 09:14:37 -0500
+Processing by TvsController#filter as HTML
+  Rendered tvs/_sidebar.html.erb (0.1ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/filter.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 42ms (Views: 41.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-result" for ::1 at 2015-08-17 09:15:05 -0500
+Processing by TvsController#result as HTML
+  Rendered tvs/_sidebar.html.erb (0.0ms)
+  Rendered tvs/result.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 43ms (Views: 42.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-result" for ::1 at 2015-08-17 09:19:04 -0500
+Processing by TvsController#result as HTML
+  Rendered tvs/_sidebar.html.erb (0.1ms)
+  Rendered tvs/result.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 160ms (Views: 158.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv" for ::1 at 2015-08-17 09:20:24 -0500
+Processing by TvsController#filter as HTML
+  Rendered tvs/_sidebar.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/filter.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 41ms (Views: 40.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv" for ::1 at 2015-08-17 09:21:04 -0500
+Processing by TvsController#filter as HTML
+  Rendered tvs/_sidebar.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.1ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/filter.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 43ms (Views: 42.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-result" for ::1 at 2015-08-17 09:25:33 -0500
+Processing by TvsController#result as HTML
+  Rendered tvs/_sidebar.html.erb (0.0ms)
+  Rendered tvs/result.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 36ms (Views: 35.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-result" for ::1 at 2015-08-17 09:26:07 -0500
+Processing by TvsController#result as HTML
+  Rendered tvs/_sidebar.html.erb (0.0ms)
+  Rendered tvs/result.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 37ms (Views: 36.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-result" for ::1 at 2015-08-17 09:26:39 -0500
+Processing by TvsController#result as HTML
+  Rendered tvs/_sidebar.html.erb (0.0ms)
+  Rendered tvs/result.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 32ms (Views: 31.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-result" for ::1 at 2015-08-17 09:26:53 -0500
+Processing by TvsController#result as HTML
+  Rendered tvs/_sidebar.html.erb (0.0ms)
+  Rendered tvs/result.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 40ms (Views: 39.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-result" for ::1 at 2015-08-17 09:27:11 -0500
+Processing by TvsController#result as HTML
+  Rendered tvs/_sidebar.html.erb (0.0ms)
+  Rendered tvs/result.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 34ms (Views: 33.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-result" for ::1 at 2015-08-17 09:27:32 -0500
+Processing by TvsController#result as HTML
+  Rendered tvs/_sidebar.html.erb (0.0ms)
+  Rendered tvs/result.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 47ms (Views: 46.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-result" for ::1 at 2015-08-17 09:27:44 -0500
+Processing by TvsController#result as HTML
+  Rendered tvs/_sidebar.html.erb (0.0ms)
+  Rendered tvs/result.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 41ms (Views: 40.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv" for ::1 at 2015-08-17 09:27:47 -0500
+Processing by TvsController#filter as HTML
+  Rendered tvs/_sidebar.html.erb (0.1ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.1ms)
+  Rendered tvs/filter.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 51ms (Views: 50.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv" for ::1 at 2015-08-17 09:27:50 -0500
+Processing by TvsController#filter as HTML
+  Rendered tvs/_sidebar.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.1ms)
+  Rendered tvs/filter.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 41ms (Views: 40.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-result" for ::1 at 2015-08-17 09:28:21 -0500
+Processing by TvsController#result as HTML
+  Rendered tvs/_sidebar.html.erb (0.0ms)
+  Rendered tvs/result.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 41ms (Views: 40.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv" for ::1 at 2015-08-17 09:34:21 -0500
+Processing by TvsController#filter as HTML
+  Rendered tvs/_sidebar.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/_tvprice.html.erb (0.0ms)
+  Rendered tvs/_tvsize.html.erb (0.0ms)
+  Rendered tvs/_tvresolution.html.erb (0.0ms)
+  Rendered tvs/filter.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 43ms (Views: 42.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-result" for ::1 at 2015-08-17 09:34:53 -0500
+Processing by TvsController#result as HTML
+  Rendered tvs/_sidebar.html.erb (0.0ms)
+  Rendered tvs/result.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 32ms (Views: 31.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-product" for ::1 at 2015-08-17 09:42:47 -0500
+Processing by TvsController#product as HTML
+  Rendered tvs/product.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 41ms (Views: 40.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-product" for ::1 at 2015-08-17 09:43:17 -0500
+Processing by TvsController#product as HTML
+  Rendered tvs/product.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 42ms (Views: 41.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-product" for ::1 at 2015-08-17 09:43:50 -0500
+Processing by TvsController#product as HTML
+  Rendered tvs/product.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 46ms (Views: 46.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-product" for ::1 at 2015-08-17 09:44:57 -0500
+Processing by TvsController#product as HTML
+  Rendered tvs/product.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 38ms (Views: 38.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/jquery-1.9.1.js" for ::1 at 2015-08-17 09:44:57 -0500
+
+ActionController::RoutingError (No route matches [GET] "/jquery-1.9.1.js"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.9ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.8ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (67.5ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (1.6ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (50.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (106.1ms)
+
+
+Started GET "/jquery.mobile-1.3.0-rc.1.css" for ::1 at 2015-08-17 09:44:58 -0500
+
+ActionController::RoutingError (No route matches [GET] "/jquery.mobile-1.3.0-rc.1.css"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.4ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (51.5ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (33.1ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (74.4ms)
+
+
+Started GET "/jquery.mobile-1.3.0-rc.1.js" for ::1 at 2015-08-17 09:44:58 -0500
+
+ActionController::RoutingError (No route matches [GET] "/jquery.mobile-1.3.0-rc.1.js"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/addisonstamper/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.6ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (55.6ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (37.0ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/addisonstamper/.rvm/gems/ruby-2.2.1/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (79.4ms)
+
+
+Started GET "/tv-product" for ::1 at 2015-08-17 09:45:38 -0500
+Processing by TvsController#product as HTML
+  Rendered tvs/product.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 44ms (Views: 43.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-product" for ::1 at 2015-08-17 09:46:06 -0500
+Processing by TvsController#product as HTML
+  Rendered tvs/product.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 34ms (Views: 33.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-product" for ::1 at 2015-08-17 09:50:18 -0500
+Processing by TvsController#product as HTML
+  Rendered tvs/product.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 39ms (Views: 38.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-product" for ::1 at 2015-08-17 09:50:34 -0500
+Processing by TvsController#product as HTML
+  Rendered tvs/product.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 35ms (Views: 34.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-product" for ::1 at 2015-08-17 09:50:49 -0500
+Processing by TvsController#product as HTML
+  Rendered tvs/product.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 48ms (Views: 47.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-product" for ::1 at 2015-08-17 09:50:59 -0500
+Processing by TvsController#product as HTML
+  Rendered tvs/product.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 33ms (Views: 32.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-product" for ::1 at 2015-08-17 09:51:29 -0500
+Processing by TvsController#product as HTML
+  Rendered tvs/product.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 35ms (Views: 34.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-product" for ::1 at 2015-08-17 09:51:47 -0500
+Processing by TvsController#product as HTML
+  Rendered tvs/product.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 35ms (Views: 34.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-product" for ::1 at 2015-08-17 09:51:57 -0500
+Processing by TvsController#product as HTML
+  Rendered tvs/product.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 37ms (Views: 36.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-product" for ::1 at 2015-08-17 09:53:00 -0500
+Processing by TvsController#product as HTML
+  Rendered tvs/product.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 41ms (Views: 40.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-product" for ::1 at 2015-08-17 09:53:31 -0500
+Processing by TvsController#product as HTML
+  Rendered tvs/product.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 35ms (Views: 34.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/tv-product" for ::1 at 2015-08-17 09:53:42 -0500
+Processing by TvsController#product as HTML
+  Rendered tvs/product.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 38ms (Views: 37.3ms | ActiveRecord: 0.0ms)

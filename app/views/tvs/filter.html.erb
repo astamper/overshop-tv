@@ -1,8 +1,20 @@
 
-<div class="row">
+
+
+
+
+
+
+
+
+
+
+
+
   <div class="col-sm-4 col-md-3 col-lg-2 hidden-xs"  id="myScrollspy">
     <%= render 'sidebar' %>
   </div>
+
   <div class="col-sm-8 col-md-9 hidden-xs content" >
     <div class="item"><section id="section1"> <%= render 'tvprice' %></section> </div>
     <div class="item"><section id="section2"> <%= render 'tvsize' %></section> </div>
@@ -17,9 +29,8 @@
   </div>
 </div>
 
-<nav class="navbar navbar-default navbar-fixed-bottom visible-xs sucess">
-<div class="container">
-  </div>
+<nav class="navbar-fixed-bottom visible-xs">
+<a href="/tv-result" class="btn btn-success btn-block" role="button">3 Models</a>
 </nav>
 
 
@@ -34,8 +45,7 @@
       paginationSpeed : 400,
       singleItem:true,
       autoHeight : true,
-      navigation : false,
-      pagination : false
+
 
     });
   $('#nav').affix({
@@ -44,5 +54,15 @@
     }
   });
 
+
+
 </script>
+<!-- SmartMenus jQuery plugin -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.smartmenus/1.0.0/jquery.smartmenus.js"></script>
+
+<!-- SmartMenus jQuery Bootstrap Addon -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.smartmenus/1.0.0/addons/bootstrap/jquery.smartmenus.bootstrap.js"></script>
+
+
+
 
