@@ -1,3 +1,4 @@
+
 <div class="col-sm-4 col-md-3 col-lg-2 hidden-xs"  id="myScrollspy">
   <%= render 'sidebar' %>
 </div>
@@ -7,7 +8,7 @@
   <div class="item"><section id="section3"> <%= render 'tvresolution' %></section> </div>
 </div>
 <div class="visible-xs">
-  <div class="owl-carousel" id="single-page">
+  <div class="slick-slider" id="single-page">
     <div class="item"><%= render 'tvprice' %></div>
     <div class="item"><%= render 'tvsize' %></div>
     <div class="item"><%= render 'tvresolution' %></div>
@@ -46,19 +47,17 @@
 
 </nav>
 <script type="text/javascript">
-  $(".owl-carousel").owlCarousel({
-      navigation : true, // Show next and prev buttons
-      slideSpeed : 300,
-      paginationSpeed : 400,
-      singleItem:true,
-      autoHeight : true,
-    });
-  $('#nav').affix({
-    offset: {
-      top: $('#nav').offset().top
-    }
-  });
+   $(document).ready(function() {
+    $('.slick-slider').slick({
+          autoplaySpeed: 2000,
+          dots: true,
+          adaptiveHeight: true,
+          accessibility: true,
+          draggable: false,
+        });
+});
 </script>
+
 
 
 

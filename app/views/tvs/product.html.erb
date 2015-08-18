@@ -1,0 +1,65 @@
+<div class="col-sm-4 col-md-3 col-lg-2 hidden-xs"  id="myScrollspy">
+  <%= render 'sidebar' %>
+</div>
+<div class="col-sm-8 col-md-9 hidden-xs content" >
+  <div class="item"><section id="section1"> <%= render 'tvprice' %></section> </div>
+  <div class="item"><section id="section2"> <%= render 'tvsize' %></section> </div>
+  <div class="item"><section id="section3"> <%= render 'tvresolution' %></section> </div>
+</div>
+<div class="visible-xs">
+  <div class="owl-carousel" id="single-page">
+    <div class="item"><%= render 'tvprice' %></div>
+    <div class="item"><%= render 'tvsize' %></div>
+    <div class="item"><%= render 'tvresolution' %></div>
+  </div>
+</div>
+</div>
+
+<nav class="navbar-fixed-bottom visible-xs">
+  <style type="text/css">
+    #sidebottombutton {
+      position: absolute;
+      bottom:0px;
+      width: 100%;
+      height: 50px;
+      background: green;
+      padding-top: 10px;
+    }
+    h3 {
+      margin-top: 0px;
+    }
+  </style>
+
+
+
+
+  <a href="/tv-result" style="text-decoration: none">
+    <div id="sidebottombutton">
+      <h3 class="text-center">
+        <font color="white">
+          3 Models
+        </font>
+      </h3>
+    </div>
+  </a>
+
+
+</nav>
+<script type="text/javascript">
+  $(".owl-carousel").owlCarousel({
+      navigation : true, // Show next and prev buttons
+      slideSpeed : 300,
+      paginationSpeed : 400,
+      singleItem:true,
+      autoHeight : true,
+    });
+  $('#nav').affix({
+    offset: {
+      top: $('#nav').offset().top
+    }
+  });
+</script>
+
+
+
+
